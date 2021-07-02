@@ -1,0 +1,135 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<!-- HOME -->
+<section id="home">
+    <div class="row">
+
+        <div class="owl-carousel owl-theme home-slider">
+            <div class="item item-first">
+                <div class="caption">
+                    <div class="container">
+                        <div class="col-md-6 col-sm-12">
+                            <h1>Магазин спортивного питания</h1>
+                            <h3>
+                                Протеины? Аминокислоты? Гейнеры? Стимуляторы? Вы пришли по адресу.<br />
+                                У нас есть питание на любой вкус персонально для вас. <br /><br />
+                                <i>"Если человек решает работать над собой - это не физика. Это характер..."</i>
+                            </h3>
+                            <a href="../Shop/ShopList" class="section-btn btn btn-default smoothScroll">В магазин</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FEATURE -->
+<section id="feature">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-4">
+                <div class="feature-thumb">
+                    <span>01</span>
+                    <h3>Выбирая нас</h3>
+                    <p>Вы можете быть уверены в высоком качестве наших товаров.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="feature-thumb">
+                    <span>02</span>
+                    <h3>Употребляя наш продукт</h3>
+                    <p>Вы поймете, что приняли правильное решение.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <div class="feature-thumb">
+                    <span>03</span>
+                    <h3>Работая над собой</h3>
+                    <p>И не жалея своих сил вы увидите желаемый результат.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="about-info">
+                    <h2>Почему именно мы?</h2>
+
+                    <figure>
+                        <span><i class="fa fa-users"></i></span>
+                        <figcaption>
+                            <h3>Сотрудники помогут</h3>
+                            <p>Наши консультанты готовы помочь в выборе товаров специально для вас</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <span><i class="fa fa-certificate"></i></span>
+                        <figcaption>
+                            <h3>Нас выбирают люди</h3>
+                            <p>Из-за высокого качества наших товаров и довольных покупателей</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <span><i class="fa fa-bar-chart-o"></i></span>
+                        <figcaption>
+                            <h3>Отличные цены</h3>
+                            <p>Одни из лучших цен на конкурентном рынке</p>
+                        </figcaption>
+                    </figure>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="recommendations">
+    <div class="row">
+        <div class="shop-content-element">
+            <h2 class="custom-align">Мы рекомендуем эти товары</h2>
+            <h3>@Html.ActionLink("Перейти к полному списку товаров->", "ShopList", "Shop", null, new { @class = "details-button" })</h3>
+            @foreach (SportingFoodShop.Models.Product item in ViewBag.Recommended)
+            {
+                <div class="col-md-3 col-sm-3">
+                    <div class="feature-thumb">
+
+                        <div class="item-name">
+                            @Html.DisplayFor(modelItem => item.Name)<br />
+                        </div>
+                        <div class="item-name">
+                            (@Html.DisplayFor(modelItem => item.Weight)
+                            @Html.DisplayFor(modelItem => item.AggregateType.Postfix))
+                        </div>
+                        <div class="item-cost">
+                            @Html.DisplayFor(modelItem => item.Cost) бел.руб.
+                        </div>
+                        @Html.DisplayFor(modelItem => item.Categories.Name)<br />
+                        <img src="@Url.Content(item.Image.ImagePath)" class="shop-image-size" alt="Ошибка загрузки изображения" />
+
+                        <br />
+                        @Html.ActionLink("В корзину", "AddToCart", "Shop", new { Id = item.Id, Postfix = item.AggregateType.Postfix }, new { @class = "shop-button" })
+                        @Html.ActionLink("Подробнее", "Details", "Shop", new { id = item.Id }, null)
+                        <br />
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</section>

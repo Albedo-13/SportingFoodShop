@@ -1,0 +1,186 @@
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\SportingFoodShop.dll.config
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\SportingFoodShop.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\SportingFoodShop.pdb
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\csc.exe
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\csc.exe.config
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\csc.rsp
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\csi.exe
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\csi.exe.config
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\csi.rsp
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.AppContext.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Console.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.IO.Compression.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Net.Http.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Net.Sockets.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.ValueTuple.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Xml.XPath.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\vbc.exe
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\vbc.exe.config
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\vbc.rsp
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\Antlr3.Runtime.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\EntityFramework.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\EntityFramework.SqlServer.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\Newtonsoft.Json.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Helpers.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Mvc.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Optimization.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Razor.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\WebGrease.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\EntityFramework.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\EntityFramework.SqlServer.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Helpers.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Mvc.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Optimization.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Razor.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\Newtonsoft.Json.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\Antlr3.Runtime.pdb
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.csproj.CoreCompileInputs.cache
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.csproj.CopyComplete
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.pdb
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Providers.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\System.Web.Providers.xml
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\bin\Rotativa.dll
+C:\Users\cyxar\OneDrive\Рабочий стол\CSharpCodes\ASPNET\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.csprojAssemblyReference.cache
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\SportingFoodShop.dll.config
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\SportingFoodShop.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\SportingFoodShop.pdb
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\csc.exe
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\csc.exe.config
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\csc.rsp
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\csi.exe
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\csi.exe.config
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\csi.rsp
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.AppContext.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Console.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.IO.Compression.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Net.Http.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.ValueTuple.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\vbc.exe
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\vbc.exe.config
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\vbc.rsp
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\VBCSCompiler.exe
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\Antlr3.Runtime.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\EntityFramework.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\Newtonsoft.Json.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\Rotativa.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Helpers.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Mvc.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Optimization.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Providers.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Razor.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\WebGrease.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\EntityFramework.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Providers.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Helpers.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Mvc.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Optimization.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.Razor.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\Newtonsoft.Json.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\Antlr3.Runtime.pdb
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.csproj.AssemblyReference.cache
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.csproj.CoreCompileInputs.cache
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.csproj.CopyComplete
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.dll
+C:\Users\Trust\Desktop\Диплом\SportingFoodShop\SportingFoodShop\obj\Debug\SportingFoodShop.pdb

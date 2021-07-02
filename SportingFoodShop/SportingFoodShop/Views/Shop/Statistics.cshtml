@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Statistics";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<SportingFoodShop.Models.User> Users = ViewBag.Top3Users;
+    List<SportingFoodShop.Models.Product> Products = ViewBag.Top3Products;
+    SportingFoodShop.Providers.CustomRoleProvider provider = new SportingFoodShop.Providers.CustomRoleProvider();
+}
+
+<div class="narrower-20pr">
+
+    <br />
+    @if (provider.IsUserInRole(User.Identity.Name, "Admin"))
+    {
+        <h2>Топ-3 покупателей</h2>
+        <table class="table">
+            @foreach (var item in Users)
+            {
+                <tr>
+                    <td>
+                        <p>@item.Email</p>
+                    </td>
+                    <td>
+                        <p>@item.TotalSpentMoney (бел.руб.)</p>
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+
+    <h2>Топ-3 покупаемых товаров</h2>
+    <table class="table">
+        @foreach (var item in Products)
+        {
+            <tr>
+                <td>
+                    <p>@item.Name</p>
+                </td>
+                <td>
+                    <p>@item.TotalBoughtItems (шт.)</p>
+                </td>
+            </tr>
+        }
+    </table>
+
+    <h3>
+        @Html.ActionLink("Назад на главную", "Index", "Home", null, new { @class = "details-button" })
+    </h3>
+</div>

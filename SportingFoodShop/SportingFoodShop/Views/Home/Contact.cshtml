@@ -1,0 +1,59 @@
+﻿@model IEnumerable<SportingFoodShop.Models.Place>
+
+@{
+    ViewBag.Title = "Contact";
+}
+<br />
+<h3>@Html.ActionLink("К покупкам ->", "ShopList", "Shop", null, new { @class = "details-button" })</h3>
+
+<div class="shop-content-element">
+
+    <h3>Магазины спортивного питания: </h3><br />
+    @foreach (var item in Model)
+    {
+
+        <div class="col-md-4 col-sm-4">
+            <div class="details-full-text">
+                <div class="fa fa-home"></div>
+                Магазин "@item.ShopName"
+                На улице @item.Street @item.House@item.HouseAdditionalLetter
+            </div>
+        </div>
+
+    }
+
+    <h3>Наши контакты: </h3><br />
+
+    <div class="col-md-4 col-sm-4 ">
+        <div class="details-full-text">
+            <div class="fa fa-phone"></div>
+            Павел<br />
+            +375 (29) 351-85-18
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-4 ">
+        <div class="details-full-text">
+            <div class="fa fa-phone"></div>
+            Евгений<br />
+            +375 (44) 754-55-41
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-4">
+        <div class="details-full-text">
+            <div class="fa fa-phone"></div>
+            Александр<br />
+            +375 (33) 774-86-73
+        </div>
+    </div>
+
+    <h3>Мы в социальных сетях: </h3><br />
+    <div>
+        <a href="https://vk.com/cyxarikhwg" target="_blank" class="fa fa-vk fa-2x"></a>
+        <a href="https://twitter.com/elonmusk" target="_blank" class="fa fa-twitter fa-2x"></a>
+        <a href="https://www.facebook.com/Cyxarik" target="_blank" class="fa fa-facebook fa-2x"></a>
+        <a href="https://www.youtube.com/channel/UCLm_yxlfIIjhNz2NDo6DtRg" target="_blank" class="fa fa-youtube fa-2x"></a>
+    </div>
+
+</div>

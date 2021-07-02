@@ -1,0 +1,68 @@
+﻿@{
+    List<SportingFoodShop.Models.Product> Model = ViewBag.ProductInit;
+    List<SportingFoodShop.Models.Category> Categ = ViewBag.CategoryInit;
+    SportingFoodShop.Providers.CustomRoleProvider provider = new SportingFoodShop.Providers.CustomRoleProvider();
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br/>
+<div class="custom-searchbar-container">
+    @using (Html.BeginForm("ShopList", "Shop", FormMethod.Post))
+    {
+        @Html.TextBox("SearchRequest", null, new { placeholder = "Ищите что-то конкретное?", @class = "form__field" })
+        <input type="submit" class="btn btn--primary btn--inside uppercase" value="Найти" />//вставить картинку лупы
+    }
+</div>
+
+<div class="shop-menu-element">
+    <h3>Категории товаров</h3><hr class="category-style" /><hr/>
+    @foreach (var item in Categ)
+    {
+        @Html.ActionLink($"{item.Name} ->", "ShopList", "Shop", new { CategoryNameFilter = item.Name }, new { @class= "category-link" }); 
+        <hr />
+    }
+</div>
+
+<div>
+    @if (provider.IsUserInRole(User.Identity.Name, "Admin"))
+    {
+        <br />
+        @Html.ActionLink("+ Добавить товар", "AddProduct", "Shop", new { @class = "btn-success" })<br />
+    }
+</div>
+
+<div class="shop-content-element">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 col-sm-3">
+            <div class="feature-thumb">
+
+                <div class="item-name">
+                    @Html.DisplayFor(modelItem => item.Name)<br />
+                </div>
+                <div class="item-name">
+                    (@Html.DisplayFor(modelItem => item.Weight)
+                    @Html.DisplayFor(modelItem => item.AggregateType.Postfix))
+                </div>
+                <div class="item-cost">
+                    @Html.DisplayFor(modelItem => item.Cost) бел.руб.
+                </div>
+                @Html.DisplayFor(modelItem => item.Categories.Name)<br />
+                <img src="@Url.Content(item.Image.ImagePath)" class="shop-image-size" alt="Ошибка загрузки изображения" />
+
+                <br />
+                @Html.ActionLink("В корзину", "AddToCart", "Shop", new { Id = item.Id, Postfix = item.AggregateType.Postfix }, new { @class = "shop-button" })
+                @Html.ActionLink("Подробнее", "Details", "Shop", new { id = item.Id }, null)
+                <br />
+                @if (provider.IsUserInRole(User.Identity.Name, "Admin"))
+                {
+                    <br />
+                    <hr />
+                    @Html.ActionLink("~ Изменить товар", "EditProduct", "Shop", new { Id = item.Id }, new { @class = "btn-warning" })<br />
+                    @Html.ActionLink("x Удалить товар", "DeleteProduct", "Shop", new { Id = item.Id }, new { @class = "btn-danger" })
+                    <br />
+                }
+
+            </div>
+        </div>
+    }
+</div>

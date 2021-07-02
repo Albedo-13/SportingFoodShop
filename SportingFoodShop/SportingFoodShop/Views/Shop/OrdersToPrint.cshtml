@@ -1,0 +1,119 @@
+﻿@model IEnumerable<SportingFoodShop.Models.ShoppingCart>
+
+@{
+    ViewBag.Title = "OrdersToPrint";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    SportingFoodShop.Providers.CustomRoleProvider provider = new SportingFoodShop.Providers.CustomRoleProvider();
+    string groupingKey = "";
+}
+
+@if (provider.IsUserInRole(User.Identity.Name, "User"))
+{
+    <h2>Список заказов @User.Identity.Name</h2>
+}
+else if (provider.IsUserInRole(User.Identity.Name, "Admin"))
+{
+    <h2>Список активных заказов пользователей</h2>
+}
+
+<div class="narrower-5pr">
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayName("Ключ заказа")
+            </th>
+            <th>
+                @if (provider.IsUserInRole(User.Identity.Name, "Admin"))
+                {
+                    @Html.DisplayName("Пользователь")
+                }
+            </th>
+            <th>
+                @Html.DisplayName("Название товара")
+            </th>
+            <th>
+                @Html.DisplayName("Время и дата оформления")
+            </th>
+            <th>
+                @Html.DisplayName("Примерная дата готовности заказа")
+            </th>
+            <th>
+                @Html.DisplayName("Товаров")
+            </th>
+            <th>
+                @Html.DisplayName("К оплате")
+            </th>
+            <th>
+                @Html.DisplayName("Забрать на улице")
+            </th>
+            <th>
+                @Html.DisplayName("Состояние заказа")
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            if (groupingKey != item.PersonalOrderId && groupingKey != "")
+            {
+                <tr>
+                    <td><b>Итоговая цена: @SportingFoodShop.Models.CustomClasses.Math.CountOrderSum(groupingKey) (бел.руб.)</b></td>
+                </tr>
+            }
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PersonalOrderId)
+        </td>
+        <td>
+            @if (provider.IsUserInRole(User.Identity.Name, "Admin"))
+            {
+                @Html.DisplayFor(modelItem => item.User.Email)
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ReadyOrderPrediction)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity) x
+            @Html.DisplayFor(modelItem => item.Cost) (бел. руб.)
+        </td>
+        <td>
+            @SportingFoodShop.Models.CustomClasses.Math.MulResult(item.Quantity, item.Cost) (бел. руб.)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Place.Street)
+            @Html.DisplayFor(modelItem => item.Place.House)@Html.DisplayFor(modelItem => item.Place.HouseAdditionalLetter)
+        </td>
+        <td>
+            @{groupingKey = item.PersonalOrderId;}
+        </td>
+        <td>
+            @if (!item.State)
+            {
+                <p class="text-danger" style="font-weight: 600">Заказ не забран</p>
+            }
+            @if (item.State)
+            {
+                <p class="text-success" style="font-weight: 600">Заказ получен</p>
+            }
+        </td>
+    </tr>
+        }
+
+        <tr>
+            <td><b>Итоговая цена: @SportingFoodShop.Models.CustomClasses.Math.CountOrderSum(groupingKey) (бел.руб.)</b></td>
+        </tr>
+
+    </table>
+
+    <h2>ОБРАТИТЕ ВНИМАНИЕ!</h2>
+    <h4>
+        Персональный "Ключ заказа", представленный напротив каждого товара,
+        должен быть предоставлен кассиру непосредственно перед оплатой
+    </h4>
+</div>

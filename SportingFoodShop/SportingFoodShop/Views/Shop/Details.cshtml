@@ -1,0 +1,134 @@
+﻿@model SportingFoodShop.Models.Product
+
+@{
+    List<SportingFoodShop.Models.Review> Reviews = ViewBag.ReviewInit;
+    bool UserLeftReview = false;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>@Html.ActionLink("<- Назад в магазин", "ShopList", "Shop", null, new { @class = "details-button" })</h3>
+<br />
+<div class="details-left-element">
+    <img src="@Url.Content(Model.Image.ImagePath)" class="details-image-size" alt="Ошибка загрузки изображения" />
+</div>
+
+<div class="details-right-element">
+    @*@Html.DisplayFor(model => model.Name)*@
+    <div class="details-name">@Model.Name (@Model.Weight @Model.AggregateType.Postfix)</div>
+    <div class="details-category">@Model.Categories.Name</div>
+    <hr />
+
+    <div class="details-cost">
+        @Model.Cost (бел.руб.) / шт.
+    </div>
+
+    @Html.ActionLink("Добавить в корзину", "AddToCart", "Shop", new { Id = Model.Id, Postfix = Model.AggregateType.Postfix }, new { @class = "details-button" })
+
+    <div class="details-short-text">
+        @Model.ShortDescription
+    </div>
+</div>
+<hr />
+
+<div class="details-bottom-element">
+    <div class="details-full-text">
+        @Model.FullDescription
+    </div>
+</div>
+
+<hr />
+@for (int i = 0; i < Reviews.Count; i++)
+{
+    if (User.Identity.IsAuthenticated && User.Identity.Name == Reviews[i].User.Email) // Если этот пользователь оставил отзыв о товаре
+    {
+        <div class="details-full-text" style="color:gray"><i>Вы уже оставляли отзыв об этом товаре</i></div>
+        UserLeftReview = true;
+        break;
+    }
+}
+@if (!UserLeftReview)
+{
+    <h3 style="margin-left: 30%; margin-bottom: 15px;">Пользовались этим товаром? Оставьте отзыв!</h3>
+    using (Html.BeginForm("Details", "Shop", FormMethod.Post))
+    {
+        <div class="reviews-left-element">
+            @Html.Hidden("id", Model.Id)
+            @Html.TextBox("Title", null, new { @class = "form-control", @required = "", @placeholder = "Заголовок отзыва" })
+            <div class="form_radio_group">
+                <div class="form_radio_group-item">
+                    <input type="radio" name="rating" required="" class="star-1" id="star-1" value="1">
+                    <label class="fa fa-star-o" for="star-1">1</label>
+                </div>
+                <div class="form_radio_group-item">
+                    <input type="radio" name="rating" class="star-2" id="star-2" value="2">
+                    <label class="fa fa-star-o" for="star-2">2</label>
+                </div>
+                <div class="form_radio_group-item">
+                    <input type="radio" name="rating" class="fa-star" id="star-3" value="3">
+                    <label class="fa fa-star-o" for="star-3">3</label>
+                </div>
+                <div class="form_radio_group-item">
+                    <input type="radio" name="rating" class="star-4" id="star-4" value="4">
+                    <label class="fa fa-star-o" for="star-4">4</label>
+                </div>
+                <div class="form_radio_group-item">
+                    <input type="radio" name="rating" class="star-5" id="star-5" value="5">
+                    <label class="fa fa-star-o" for="star-5">5</label>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="">
+                    @Html.TextArea("Content", new { @class = "form-control", @rows = "10", @cols = "40", required = "", @placeholder = "Ваш отзыв" })
+                </div>
+            </div>
+        </div>
+        <div class="reviews-right-element">
+            <div class="">
+                <div class="">
+                    @Html.TextArea("Pluses", new { @class = "form-control", @rows = "6", @cols = "40", @placeholder = "Плюсы" })
+                </div>
+            </div>
+            <div class="">
+                <div class="">
+                    @Html.TextArea("Minuses", new { @class = "form-control", @rows = "6", @cols = "40", @placeholder = "Минусы" })
+                </div>
+            </div>
+            <div style="margin-left: 30%;">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Оставить отзыв" class="shop-button" />
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<div class="details-full-text">
+    @foreach (var item in Reviews)  // Место для всех отзывов
+    {
+        <hr />
+        <div class="narrower-20pr">
+            <div class="review-nickname">
+                @item.User.Nickname
+            </div>
+            <div class="review-date">
+                @item.ReviewDate.ToShortDateString() <br />
+            </div>
+
+            @for (int i = 0; i < item.Stars; i++)
+            {
+                <label class="fa fa-star"></label>
+            }
+            <nav>
+                <h4>@item.Title</h4>
+                @item.Content <br />
+
+                <b><i>Плюсы:</i></b>
+                @item.Pluses <br />
+
+                <b><i>Минусы:</i></b>
+                @item.Minuses <br />
+            </nav>
+        </div>
+    }
+</div>

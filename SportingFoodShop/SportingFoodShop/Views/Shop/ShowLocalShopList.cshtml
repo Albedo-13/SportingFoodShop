@@ -1,0 +1,76 @@
+﻿@model List<SportingFoodShop.Models.LocalBasketElement>
+
+@{
+    ViewBag.Title = "ShowLocalShopList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="narrower-5pr">
+    <br />
+    @foreach (var item in SportingFoodShop.Models.LocalBasket.Boughts)
+    {
+        using (Html.BeginForm("EditLocalShopListItems", "Shop", FormMethod.Post))
+        {
+            <table class="table">
+                <tr>
+                    <th>
+                        @Html.DisplayName("Товар")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Изменить кол-во")
+                    </th>
+                    <th>
+                        @Html.DisplayName("Итого") (бел.руб) x шт.
+                    </th>
+                    <th>
+                        @Html.DisplayName("В одной упаковке")
+                    </th>
+                    <th>
+
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="@Url.Content(item.ImagePath)" class="shop-image-size" alt="Ошибка загрузки изображения" />
+                        @Html.TextBox("Name", item.Name, new { @class = "form-control", @readonly = "true" })
+                    </td>
+                    <td>
+                        <input type="submit" name="action" value="+1" class="btn-success" />
+                        <input type="submit" name="action" value="-1" class="btn-warning" />
+                    </td>
+                    <td>
+                        @Html.TextBox("Cost", item.Cost, new { @class = "form-control", @readonly = "true" }) х
+                        @Html.TextBox("Quantity", item.Quantity, new { @class = "form-control", @readonly = "true" })
+                        <hr />
+                        <h5>
+                            В сумме @SportingFoodShop.Models.CustomClasses.Math.MulResult(item.Quantity, @item.Cost) бел.руб.
+                        </h5>
+                    </td>
+                    <td>
+                        @Html.TextBox("Weight", item.Weight, new { @class = "form-control", @readonly = "true" })
+                    </td>
+                    <td>
+                        <h1><input type="submit" name="action" value="X" class="btn-danger" /></h1>
+                        <input type="hidden" id="ShortDescription" name="ShortDescription" value="@item.ShortDescription">
+                    </td>
+                </tr>
+            </table>
+        }
+        <hr /><br />
+    }
+
+    <div>
+        <h2>ИТОГОВАЯ СУММА К ОПЛАТЕ: @SportingFoodShop.Models.CustomClasses.Math.FinalBasketSum(Model) (бел.руб.)</h2>
+    </div>
+
+    @using (Html.BeginForm("ShowLocalShopList", "Shop", FormMethod.Post))
+    {
+        <h5>Выберите магазин, где вам будет удобно забрать заказ</h5>
+        @Html.DropDownList("ChosenPlaceId", ViewBag.PlacesList as SelectList, null, new { @class = "" })
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <h2><input type="submit" value="Оформить заказ" class="btn-default" /></h2>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,77 @@
+﻿@model SportingFoodShop.Models.RegisterModel
+
+@{
+    ViewBag.Title = "PersonalProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    SportingFoodShop.Providers.CustomRoleProvider provider = new SportingFoodShop.Providers.CustomRoleProvider();
+}
+
+<h2>Личный кабинет</h2>
+
+<div>
+    @Html.ActionLink("Просмотреть оформленные заказы", "CheckMyBoughts", "Shop", null, new { @class = "shop-button" })<br /><br />
+    @Html.ActionLink("Просмотреть статистику товаров", "Statistics", "Shop", null, new { @class = "shop-button" })<br />
+</div>
+
+@if (provider.IsUserInRole(User.Identity.Name, "Admin"))
+{
+    <br />
+    <hr />
+    @Html.ActionLink("+ Добавить товар", "", "Shop", null, new { @class = "btn-success" })
+    <br />
+    @Html.ActionLink("~ Изменить товар", "ShopList", "Shop", null, new { @class = "btn-warning" })
+    <br />
+    @Html.ActionLink("x Удалить товар", "ShopList", "Shop", null, new { @class = "btn-danger" })
+    <br />
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("Ваш псевдоним", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Nickname, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Nickname, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Почта", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { @readonly = "true", htmlAttributes = new { @class = "form-control", @disabled = "true" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Пароль", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Повторите пароль", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Сохранить изменения" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
